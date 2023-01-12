@@ -14,5 +14,11 @@ pipeline {
                 echo "Build successful"
             }
         }
+
+        stage("Test") {
+            steps {
+                echo "Testing new build..."
+            }
+        }
     }
 }
